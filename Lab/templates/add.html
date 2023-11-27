@@ -1,0 +1,55 @@
+<!-- templates/add.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Movie</title>
+</head>
+<body>
+    <h1>Add Movie</h1>
+    <form method="POST">
+        <label for="_id">ID:</label>
+        <input type="text" name="_id" required>
+        <br>
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>
+        <br>
+
+        <label for="year">Year:</label>
+        <input type="number" name="year" required>
+        <br>
+
+        <label for="genre">Genre:</label>
+        <select name="genre" multiple>
+            <option value="romantic">Romantic</option>
+            <option value="drama">Drama</option>
+            <option value="crime">Crime</option>
+            <option value="sci-fi">Sci-fi</option>
+            <option value="thriller">Thriller</option>
+            <option value="comedy">Comedy</option>
+            <option value="action">Action</option>
+            <option value="adventure">Adventure</option>
+        </select>
+        <br>
+
+        <label for="description">Description:</label>
+        <textarea name="description" required></textarea>
+        <br>
+
+        <label for="rating">Rating:</label>
+        <input type="number" name="rating" min="1" max="5" required>
+        <br>
+
+        <label for="actor_name">Actor Name:</label>
+        <input type="text" name="actor_name" required>
+        <br>
+
+        <label for="actor_age">Actor Age:</label>
+        <input type="number" name="actor_age" required>
+        <br>
+
+        <input type="submit" value="Add Movie">
+    </form>
+</body>
+</html>

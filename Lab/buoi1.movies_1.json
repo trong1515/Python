@@ -1,0 +1,230 @@
+[{
+  "_id": "Titanic_2001",
+  "name": "Titanic",
+  "year": 2001,
+  "genre": [
+    "romantic",
+    "drama"
+  ],
+  "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic",
+  "reviews": [
+    {
+      "rating": 4,
+      "date": {
+        "$date": "1970-01-01T00:00:00.000Z"
+      }
+    },
+    {
+      "rating": 3,
+      "date": {
+        "$date": "1970-01-01T00:00:00.000Z"
+      }
+    }
+  ],
+  "active": true,
+  "actor": {
+    "name": "Leonardo Dicaprio",
+    "age": 20
+  },
+  "fullname": "Titanic 2001",
+  "convertedYear": 2001
+},
+{
+  "_id": "Sunshine_2009",
+  "name": "Sunshine",
+  "year": 2009,
+  "genre": [
+    "sci-fi",
+    "thriller"
+  ],
+  "description": "A team of international astronauts are sent on a dangerous mission to reignite the dying Sun with a nuclear fission bomb in 2057.",
+  "reviews": [
+    {
+      "rating": 2,
+      "date": {
+        "$date": "2013-04-30T00:00:00.000Z"
+      }
+    },
+    {
+      "rating": 4,
+      "date": {
+        "$date": "2012-07-31T00:00:00.000Z"
+      }
+    }
+  ],
+  "active": true,
+  "fullname": "Sunshine 2009",
+  "convertedYear": 2009
+},
+{
+  "_id": "Forest_2005",
+  "name": "Forest Gump",
+  "year": 2005,
+  "genre": [
+    "drama",
+    "crime",
+    "thriller"
+  ],
+  "description": "A team of international astronauts are sent on a dangerous mission to reignite the dying Sun with a nuclear fission bomb in 2057.",
+  "reviews": [
+    {
+      "rating": 3,
+      "date": {
+        "$date": "2014-06-10T00:00:00.000Z"
+      }
+    }
+  ],
+  "active": true,
+  "fullname": "Forest Gump 2005",
+  "convertedYear": 2005
+},
+{
+  "_id": "Idiots_2004",
+  "name": "3 Idiots",
+  "year": 2004,
+  "genre": [
+    "drama",
+    "comedy",
+    "romantic"
+  ],
+  "description": "Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them idiots",
+  "reviews": [
+    {
+      "rating": 5,
+      "date": {
+        "$date": "2013-01-17T00:00:00.000Z"
+      }
+    },
+    {
+      "rating": 4,
+      "date": {
+        "$date": "2012-04-13T00:00:00.000Z"
+      }
+    },
+    {
+      "rating": 4,
+      "date": {
+        "$date": "2012-08-02T00:00:00.000Z"
+      }
+    }
+  ],
+  "active": true,
+  "fullname": "3 Idiots 2004",
+  "convertedYear": 2004
+},
+{
+  "_id": "Inception_2006",
+  "name": "Inception_new",
+  "year": 2015,
+  "genre": [
+    "action",
+    "adventure",
+    "sci-fi"
+  ],
+  "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+  "reviews": [
+    {
+      "rating": 4,
+      "date": {
+        "$date": "2013-01-17T00:00:00.000Z"
+      }
+    }
+  ],
+  "active": true,
+  "fullname": "Inception_new 2015",
+  "convertedYear": 2015
+},
+{
+  "_id": "Wolf_2009",
+  "name": "Wolf of wall street",
+  "year": 2009,
+  "genre": [
+    "drama"
+  ],
+  "description": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
+  "reviews": [
+    {
+      "rating": 3.5,
+      "date": {
+        "$date": "2014-05-02T00:00:00.000Z"
+      }
+    }
+  ],
+  "active": true,
+  "fullname": "Wolf of wall street 2009",
+  "convertedYear": 2009
+},
+{
+  "_id": "Fast_And_Furious_2015",
+  "name": "Fast_And_Furious",
+  "year": 2016,
+  "genre": [
+    "drama"
+  ],
+  "description": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
+  "reviews": [
+    {
+      "rating": 5,
+      "date": {
+        "$date": "2023-11-13T01:30:24.294Z"
+      }
+    }
+  ],
+  "active": true,
+  "fullname": "Fast_And_Furious 2016",
+  "convertedYear": 2016
+},
+{
+  "_id": "Gone_with_the_wind_1939",
+  "name": "Gone with the wind",
+  "year": 1939,
+  "description": "Gone With the Wind tells the story of the floating life of Scarlett O'Hara (Vivien Leigh), a Southern noblewoman struggling to survive the whirlwind of civil war and reconstruction.",
+  "active": true,
+  "reviews": [
+    {
+      "rating": 5,
+      "date": {
+        "$date": "2023-11-13T01:53:04.819Z"
+      }
+    }
+  ],
+  "genre": [
+    "drama"
+  ],
+  "fullname": "Gone with the wind 1939",
+  "convertedYear": 1939
+},
+{
+  "_id": "Mắt_biếc_2019",
+  "name": "Mắt biếc",
+  "year": 2019,
+  "active": true,
+  "reviews": [
+    {
+      "rating": 0,
+      "date": {
+        "$date": "2023-11-13T01:53:40.899Z"
+      }
+    }
+  ],
+  "genre": [
+    "romantic"
+  ],
+  "fullname": "Mắt biếc 2019",
+  "convertedYear": 2019
+},
+{
+  "_id": "Bố_già",
+  "name": "Bố già",
+  "year": 1899,
+  "active": false,
+  "fullname": "Bố già 1899",
+  "convertedYear": 1899
+},
+{
+  "_id": "Trà_Hoa_Nữ",
+  "name": "Trà Hoa Nữ",
+  "active": true,
+  "fullname": null,
+  "convertedYear": null
+}]

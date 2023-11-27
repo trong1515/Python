@@ -1,0 +1,53 @@
+<!-- templates/edit.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Movie</title>
+    
+</head>
+<body>
+    <h1>Edit Movie</h1>
+    <form method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" value="{{ item.name }}" required>
+        <br>
+
+        <label for="year">Year:</label>
+        <input type="number" name="year" value="{{ item.year }}" required>
+        <br>
+
+        <label for="genre">Genre:</label>
+        <select name="genre" multiple>
+            <option value="romantic" {% if 'romantic' in item.genre %}selected{% endif %}>Romantic</option>
+            <option value="drama" {% if 'drama' in item.genre %}selected{% endif %}>Drama</option>
+            <option value="crime" {% if 'crime' in item.genre %}selected{% endif %}>Crime</option>
+            <option value="sci-fi" {% if 'sci-fi' in item.genre %}selected{% endif %}>Sci-fi</option>
+            <option value="thriller" {% if 'thriller' in item.genre %}selected{% endif %}>Thriller</option>
+            <option value="comedy" {% if 'comedy' in item.genre %}selected{% endif %}>Comedy</option>
+            <option value="action" {% if 'action' in item.genre %}selected{% endif %}>Action</option>
+            <option value="adventure" {% if 'adventure' in item.genre %}selected{% endif %}>Adventure</option>
+        </select>
+        <br>
+
+        <label for="description">Description:</label>
+        <textarea name="description" required>{{ item.description }}</textarea>
+        <br>
+
+        <label for="rating">Rating:</label>
+        <input type="number" name="rating" value="{{ item.reviews[0].rating }}" min="1" max="5" required>
+        <br>
+
+        <label for="actor_name">Actor Name:</label>
+        <input type="text" name="actor_name" value="{{ item.actor.name }}" required>
+        <br>
+
+        <label for="actor_age">Actor Age:</label>
+        <input type="number" name="actor_age" value="{{ item.actor.age }}" required>
+        <br>
+
+        <input type="submit" value="Save Changes">
+    </form>
+</body>
+</html>
